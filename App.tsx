@@ -1,4 +1,4 @@
-import { View, StatusBar, SafeAreaView } from 'react-native';
+import {  StatusBar, SafeAreaView } from 'react-native';
 import Carrinho from './src/pages/Carrinho';
 import{useFonts,
        Montserrat_400Regular,
@@ -15,7 +15,7 @@ export default function App() {
   })
 
   if (!fontCarregada) {
-    <View/>
+   return null;
   }
 
   
